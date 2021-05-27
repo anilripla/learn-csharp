@@ -25,7 +25,7 @@ public delegate void EventHandler(object sender, EventArgs e);
 4. Subscribe to the event
 5. Add a method to handle the event
 
-# Publishing and event
+# Publishing an event
 
 Consider the following ``Car`` class that publishes and event
 
