@@ -33,7 +33,7 @@ Consider the following ``Car`` class that publishes and event
 public class Car
     {
         public int Speed { get; set; } = 0;
-
+        
         // 1. Publish an event
         public event EventHandler SpeedLimitReached;
 
@@ -62,9 +62,9 @@ public class Car
     }
 ```
 
-1. The ``EventHandler`` delegate is used to publish an event name 'SpeedLimitReached' 
+1. The ``EventHandler`` delegate is used to publish an event named 'SpeedLimitReached' 
 
-2. A method named OnLimitReached is used for the event invocation. It must meet the signature requirements for the ``EventHandler`` delegate, ie returns a void and takes an ``EventArgs`` argument
+2. A method named OnLimitReached is used for the event invocation. It must meet the signature requirements for the ``EventHandler`` delegate, ie returns a void and take an ``EventArgs`` argument
 
 3. When the speed of the car reaches above 50, the event is raised
 
