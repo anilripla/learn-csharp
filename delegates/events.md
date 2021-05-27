@@ -11,7 +11,7 @@ Events enable a class or object to notify other classes or objects when somethin
 
 # Delegate
 
-All events in the .NET class library are based on the EventHandler delegate, which is defined as follows:
+All events are based on the EventHandler delegate, which is defined as follows:
 
 ```csharp
 public delegate void EventHandler(object sender, EventArgs e);
