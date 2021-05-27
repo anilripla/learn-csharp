@@ -103,5 +103,5 @@ Speed limit reached, time to slow down!
 
 4. Subscribe to the event by specifying a handler
 
-5. The method ``HandleSpeedLimit`` is used to handle the event. It must satisfy the signature for the ``EventHandle`` delegate. When the speed limit is reached, it raises a message in the console window
+5. The method ``HandleSpeedLimitReached`` is used to handle the event. It must satisfy the signature for the ``EventHandler`` delegate. When the speed limit is reached, it raises a message in the console window
 
