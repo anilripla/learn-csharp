@@ -1,5 +1,14 @@
+---
+title: Introduction
+description: Learn C# coding
+has_children: false
+nav_order: 1
+---
+
 ## Learn C#
-Learn the C# programming language with code examples. Visit website at: https://tutorials.learn-csharp.rclapp.com
+Learn the C# programming language with code examples. 
+
+Author : Anil Ripla
 
 ### License
 'Learn C#' is distributed by an MIT license.
